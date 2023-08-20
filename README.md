@@ -15,6 +15,43 @@ Ini adalah proyek contoh yang menggunakan Express.js untuk membuat aplikasi web 
 
 Aplikasi akan berjalan di http://localhost:3000.
 
+<div>
+  <pre>
+    <code class="language-javascript">
+      var express = require('express');
+      var router = express.Router();
+
+      /* GET home page. */
+      router.get('/', function(req, res, next) {
+        res.render('index', { title: 'Express' });
+      });
+
+      module.exports = router;
+    </code>
+  </pre>
+  <button class="btn-copy" data-clipboard-target="#code-example">Salin</button>
+</div>
+
+untuk tampilan users
+
+<div>
+  <pre>
+    <code class="language-javascript">
+      var express = require('express');
+var router = express.Router();
+
+/* GET users listing. */
+router.get('/', function(req, res, next) {
+  res.send('respond with a resource');
+});
+
+module.exports = router;
+
+    </code>
+  </pre>
+  <button class="btn-copy" data-clipboard-target="#code-example">Salin</button>
+</div>
+
 ## Struktur Proyek
 
 - `routes/`: Direktori yang berisi definisi rute aplikasi.
