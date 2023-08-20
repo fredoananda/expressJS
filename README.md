@@ -29,7 +29,7 @@ Aplikasi akan berjalan di http://localhost:3000.
       module.exports = router;
   </code>
   </pre>
-  <button class="btn-copy" data-clipboard-target="#code-example">Salin</button>
+
 </div>
 
 untuk tampilan users
@@ -49,7 +49,7 @@ untuk tampilan users
 
   </code>
   </pre>
-  <button class="btn-copy" data-clipboard-target="#code-example">Salin</button>
+
 </div>
 
 ## Struktur Proyek
@@ -103,7 +103,7 @@ app.js
 
   </code>
   </pre>
-  <button class="btn-copy" data-clipboard-target="#code-example">Salin</button>
+ 
 </div>
 
 - `routes/`: Direktori yang berisi definisi rute aplikasi.
